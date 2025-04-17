@@ -19,10 +19,10 @@ const Header = () => {
         </div>
         <nav className="main-nav">
           <ul>
-            <li><a href="/">首页</a></li>
-            <li><a href="/institutions">机构展示</a></li>
-            <li><a href="/videos">视频推荐</a></li>
-            <li><a href="/about">关于我们</a></li>
+            <li><a href="#/">首页</a></li>
+            <li><a href="#/institutions">机构展示</a></li>
+            <li><a href="#/videos">视频推荐</a></li>
+            <li><a href="#/about">关于我们</a></li>
           </ul>
         </nav>
       </div>
