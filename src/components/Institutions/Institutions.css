@@ -51,12 +51,15 @@
 
 /* 机构列表样式 */
 .institutions-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
+  justify-content: flex-start;
 }
 
 .institution-card {
+  flex: 0 0 calc(33.333% - 2rem);
+  min-width: 300px;
   background: #fff;
   border-radius: 8px;
   overflow: hidden;
@@ -166,7 +169,7 @@
   }
 
   .institution-card {
-    max-width: 100%;
+    flex: 0 0 100%;
   }
 
   .card-actions {
