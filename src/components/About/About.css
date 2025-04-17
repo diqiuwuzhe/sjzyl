@@ -1,0 +1,188 @@
+.about-page {
+  padding: 80px 1rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 页面头部样式 */
+.about-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* 服务理念部分 */
+.mission-section {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.mission-section h2 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.mission-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #666;
+}
+
+/* 成就展示部分 */
+.achievements-section {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+  margin: 4rem -1rem;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.achievement-item {
+  text-align: center;
+}
+
+.achievement-item h3 {
+  color: #007bff;
+  font-size: 2.5rem;
+  margin: 0 0 1rem;
+}
+
+.achievement-item p {
+  color: #666;
+  margin: 0;
+}
+
+/* 团队介绍部分 */
+.team-section {
+  margin: 4rem 0;
+}
+
+.team-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.team-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.team-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.team-description {
+  color: #666;
+  line-height: 1.8;
+}
+
+/* 机构合作部分 */
+.cooperation-section {
+  background-color: #fff;
+  padding: 4rem 0;
+  margin-top: 4rem;
+}
+
+.cooperation-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.cooperation-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
+.cooperation-info h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.cooperation-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.cooperation-info li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #666;
+}
+
+.cooperation-info li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #28a745;
+}
+
+.contact-box {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.contact-box h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.contact-box p {
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .achievements-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-content,
+  .cooperation-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .team-image {
+    order: -1;
+  }
+}
+
+@media (max-width: 480px) {
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+}

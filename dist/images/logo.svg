@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <text x="10" y="35" font-family="Arial, sans-serif" font-size="24" fill="#333">
+    福州市养老服务网
+  </text>
+  <path d="M180 15 h-10 a5 5 0 0 0 -5 5 v10 a5 5 0 0 0 5 5 h10 a5 5 0 0 0 5 -5 v-10 a5 5 0 0 0 -5 -5z" fill="#007bff"/>
+</svg>
